@@ -1,0 +1,177 @@
+[
+  {
+    "height" : 130,
+    "name" : "header-left",
+    "width" : 460,
+    "x" : 34,
+    "y" : 30
+  },
+  {
+    "height" : 130,
+    "name" : "header-mid",
+    "width" : 240,
+    "x" : 520,
+    "y" : 30
+  },
+  {
+    "height" : 130,
+    "name" : "header-right",
+    "width" : 120,
+    "x" : 878,
+    "y" : 30
+  },
+  {
+    "height" : 488,
+    "name" : "frame",
+    "width" : 962,
+    "x" : 34,
+    "y" : 30
+  },
+  {
+    "height" : 428,
+    "name" : "modal",
+    "width" : 502,
+    "x" : 1012,
+    "y" : 80
+  },
+  {
+    "height" : 108,
+    "name" : "nav",
+    "width" : 396,
+    "x" : 34,
+    "y" : 544
+  },
+  {
+    "height" : 100,
+    "name" : "rail",
+    "width" : 608,
+    "x" : 452,
+    "y" : 552
+  },
+  {
+    "height" : 90,
+    "name" : "tab-active",
+    "width" : 211,
+    "x" : 1086,
+    "y" : 550
+  },
+  {
+    "height" : 90,
+    "name" : "tab-idle",
+    "width" : 211,
+    "x" : 1294,
+    "y" : 550
+  },
+  {
+    "height" : 114,
+    "name" : "primary-idle",
+    "width" : 248,
+    "x" : 34,
+    "y" : 686
+  },
+  {
+    "height" : 114,
+    "name" : "primary-hover",
+    "width" : 240,
+    "x" : 294,
+    "y" : 686
+  },
+  {
+    "height" : 114,
+    "name" : "primary-down",
+    "width" : 244,
+    "x" : 542,
+    "y" : 686
+  },
+  {
+    "height" : 114,
+    "name" : "secondary-idle",
+    "width" : 224,
+    "x" : 802,
+    "y" : 686
+  },
+  {
+    "height" : 114,
+    "name" : "secondary-hover",
+    "width" : 236,
+    "x" : 1038,
+    "y" : 686
+  },
+  {
+    "height" : 114,
+    "name" : "secondary-down",
+    "width" : 226,
+    "x" : 1278,
+    "y" : 686
+  },
+  {
+    "height" : 104,
+    "name" : "icon-folder",
+    "width" : 104,
+    "x" : 28,
+    "y" : 852
+  },
+  {
+    "height" : 104,
+    "name" : "icon-file",
+    "width" : 104,
+    "x" : 144,
+    "y" : 852
+  },
+  {
+    "height" : 104,
+    "name" : "icon-search",
+    "width" : 104,
+    "x" : 260,
+    "y" : 852
+  },
+  {
+    "height" : 104,
+    "name" : "icon-code",
+    "width" : 104,
+    "x" : 376,
+    "y" : 852
+  },
+  {
+    "height" : 104,
+    "name" : "icon-run",
+    "width" : 104,
+    "x" : 492,
+    "y" : 852
+  },
+  {
+    "height" : 104,
+    "name" : "icon-save",
+    "width" : 104,
+    "x" : 608,
+    "y" : 852
+  },
+  {
+    "height" : 104,
+    "name" : "icon-gear",
+    "width" : 104,
+    "x" : 724,
+    "y" : 852
+  },
+  {
+    "height" : 104,
+    "name" : "icon-gate",
+    "width" : 104,
+    "x" : 836,
+    "y" : 852
+  },
+  {
+    "height" : 88,
+    "name" : "model",
+    "width" : 288,
+    "x" : 1084,
+    "y" : 862
+  },
+  {
+    "height" : 100,
+    "name" : "lamp",
+    "width" : 100,
+    "x" : 1406,
+    "y" : 854
+  }
+]

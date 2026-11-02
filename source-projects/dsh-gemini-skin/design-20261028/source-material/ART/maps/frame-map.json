@@ -1,0 +1,159 @@
+{
+  "normalization": {
+    "raw": "gemini-tail-high.png",
+    "rawDimensions": [
+      1671,
+      941
+    ],
+    "aligned": "gemini-tail-high-aligned.png",
+    "alignedDimensions": [
+      1672,
+      941
+    ],
+    "method": "repeat only final rightmost column using ImageIO; no scaling",
+    "rawSha256": "ee94a7ae35a1a1ccb9577e640c897f6121575f2f2e9ff200965b430c9b83dada"
+  },
+  "contract": "starfall-local-preview-frames/1",
+  "sourceCanvas": [
+    1672,
+    941
+  ],
+  "uniqueTailPoses": 4,
+  "sequence": [
+    {
+      "pose": 0,
+      "ms": 260
+    },
+    {
+      "pose": 1,
+      "ms": 210
+    },
+    {
+      "pose": 2,
+      "ms": 210
+    },
+    {
+      "pose": 3,
+      "ms": 300
+    },
+    {
+      "pose": 2,
+      "ms": 210
+    },
+    {
+      "pose": 1,
+      "ms": 210
+    }
+  ],
+  "cropMethod": "macOS sips crop only; no resampling; no painted or CSS-generated character frames",
+  "frames": [
+    {
+      "file": "sprites/tail-low.png",
+      "source": "gemini-tail-low.png",
+      "pose": "low",
+      "crop": {
+        "x": 1408,
+        "y": 345,
+        "width": 264,
+        "height": 355
+      },
+      "dimensions": [
+        264,
+        355
+      ],
+      "bytes": 174226,
+      "sha256": "b87d67558a7c26e814a64e0d9fe9c59232937aa8a088a07a32595e9e63c0ed21",
+      "sourceSha256": "848149491cf02d358f3b579cd92aa94acc6665135b7350967e3282d9c0b7a2f7"
+    },
+    {
+      "file": "sprites/tail-neutral.png",
+      "source": "gemini-starfall-wallpaper.png",
+      "pose": "neutral",
+      "crop": {
+        "x": 1408,
+        "y": 345,
+        "width": 264,
+        "height": 355
+      },
+      "dimensions": [
+        264,
+        355
+      ],
+      "bytes": 177201,
+      "sha256": "1fb89885f2c1bd507158b0b45803b258b772b72eb79cf0d597d60f13cee1f4fd",
+      "sourceSha256": "3b6572a8c1a6f710a208d049677e1a07d868c886b44406fc764d252443c9709c"
+    },
+    {
+      "file": "sprites/tail-mid.png",
+      "source": "gemini-tail-mid.png",
+      "pose": "mid-high",
+      "crop": {
+        "x": 1408,
+        "y": 345,
+        "width": 264,
+        "height": 355
+      },
+      "dimensions": [
+        264,
+        355
+      ],
+      "bytes": 172899,
+      "sha256": "5110ade7324e3675524bb7687a3e83f567e51bad055d9a499d55730f509b0795",
+      "sourceSha256": "60ff600b967f99e3727780539e75c88b7387a1443ed0db743f3293b7e857cb9b"
+    },
+    {
+      "file": "sprites/tail-high.png",
+      "source": "gemini-tail-high-aligned.png",
+      "pose": "high",
+      "crop": {
+        "x": 1408,
+        "y": 345,
+        "width": 264,
+        "height": 355
+      },
+      "dimensions": [
+        264,
+        355
+      ],
+      "bytes": 204662,
+      "sha256": "185c6a5c6b1637790c4a461dbdfaa6bcde11213a3cb2586d8b4dc3a7dce381da",
+      "sourceSha256": "684d49ccd810fcab17c3b35c07f18a64623c88be9281a947851a5f223ad8b6a0"
+    },
+    {
+      "file": "sprites/blink-left.png",
+      "source": "gemini-blink-tail-alternate.png",
+      "pose": "closed-left",
+      "crop": {
+        "x": 1134,
+        "y": 207,
+        "width": 53,
+        "height": 35
+      },
+      "dimensions": [
+        53,
+        35
+      ],
+      "bytes": 4285,
+      "sha256": "c1cec6bdbdf4edd6131313c8f9d80d51ac1395935a917a96465ef31c578c9e27",
+      "sourceSha256": "6f9f0d47f9a050a590240f93e9e2446f150c5fe3ebbd5dbefe6e2b4fe291fef2"
+    },
+    {
+      "file": "sprites/blink-right.png",
+      "source": "gemini-blink-tail-alternate.png",
+      "pose": "closed-right",
+      "crop": {
+        "x": 1201,
+        "y": 177,
+        "width": 55,
+        "height": 40
+      },
+      "dimensions": [
+        55,
+        40
+      ],
+      "bytes": 4753,
+      "sha256": "200b6e0d2c1cde11eff17377b9accab8d3d1c3ca3cbe6b7e84112bf31c330cce",
+      "sourceSha256": "6f9f0d47f9a050a590240f93e9e2446f150c5fe3ebbd5dbefe6e2b4fe291fef2"
+    }
+  ]
+}

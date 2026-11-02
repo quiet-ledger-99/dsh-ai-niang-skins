@@ -1,0 +1,36 @@
+Gemini 娘 · 星光工作台 0.1.2 安装记录
+2026-10-29 Mac / DeepSeek Harness 0.2.1-rc.3 / 皮肤中心 0.4.8
+
+正式安装位置：/Users/qianweitao/.dsh/skins/gemini-starwork-dsh
+当前选择：gemini-starwork-dsh，已在正式皮肤设置显示“当前激活”。
+
+本次适配：
+- 角色背景沿用当前 Gemini 娘素材；原生 DSH 消息、模型、权限、任务侧栏和设置仍保留。
+- 0.1.0 首次试装被用户指出白色正文挡背景、聊天时角色不动。
+- 0.1.1 已改透明夜色正文及文件卡、完整背景；修正动画帧叠放，让聊天时也显示眨眼与四帧尾摆。
+- 纸艺品牌栏、输入底板、指定四芒星和侧栏 Q 版表情；Mac 品牌栏单独适配。
+- 纯 PNG + CSS，无 hooks / 新插件 / 核心升级，不修改原生预设组合。
+
+实际界面证据：
+- 隔离实例：输入编辑、权限菜单、侧栏展开/收合、焦点表情切换。
+- 正式实例：试穿 → 退出还原 Blue Fantasy → 应用 Gemini 成功。
+- 正式设置 14 分区、4 内置预设+5 自定义预设可见；任务管理侧栏与原有桌宠正常显示。
+- 约6秒正式原生窗口连续截图，确认 Gemini 两眼闭合及尾部不同帧真实出现在画面中；动图见 screenshots/04-正式DSH动态已修正-0.1.1.gif。
+- profile 的 package.json、cordis.patch.yml、cordis.yml、lock/workspace文件与安装前备份相同；自定义预设内容相同。
+- pet.json 的 affinity.turns / points、treats时间随用户自己启动的另一项DSH任务正常增加，未回写恢复它。
+- 期间用户在DSH启动写作任务，保持运行；本任务未发送模型请求、未重启正式DSH。
+
+范围：
+尚未覆盖所有插件页面/全路由和实际手机端；没有接入真实任务完成表情。正式DSH的原有桌宠为独立功能，本次未替换为Gemini。
+
+恢复：
+设置 → 皮肤 → Blue Fantasy → 应用，即可热切回原皮肤。
+备用：完全退出DSH后，双击同目录“恢复试装前皮肤.command”，再打开DSH。
+备份：backup-before/dsh/skin-center-active.json；补丁修改前版本在 revision-before-mac 和 backup-before-transparency。
+
+新增检查类文件：baseline.txt、backup-before/inventory-before.json（升级SOP要求的基线与备份对照）。
+未新增校验/日志/测试代码或测试脚本。screenshots 为真实界面证据，isolation-home/log为隔离实例自身产生的运行文件。
+素材与皮肤包未上传或公开发布。
+
+0.1.2 品牌栏修正：
+按用户截图，把原生DeepSeek字标移入折纸底板中部留白，下移缩小；去掉宽侧栏品牌行的重复星形占位；折纸底板改固定91px高度，避免原padding把图撑高。收窄侧栏时仍保留星形图标。已重新应用并实看正式Mac界面，耳朵/左彩带与字标不再重叠。新截图见screenshots/07、08；0.1.1的透明消息和角色动画保留。皮肤包预览改用真实品牌栏局部，未把私人聊天内容打进皮肤包。未新增检查代码或文件。

@@ -1,0 +1,27 @@
+ChatGPT娘 · 云上银庭 0.4.2 — v5c背景正式替换
+用户本轮明确要求替换新背景；截图中已选定正式用v5c。
+来源原文件：/Users/qianweitao/Desktop/项目文件存放处/ChatGPT娘_动态背景_20261029/chatgpt-shuanghua-bg-loop-v5c.mp4
+皮肤源：/Users/qianweitao/Projects/dsh-chatgpt-skin/design-20261029/skin/chatgpt-silvercourt-dsh
+正式安装：/Users/qianweitao/.dsh/skins/chatgpt-silvercourt-dsh
+版本：0.4.2；亮暗模式backgroundMedia均指向assets/chatgpt-shuanghua-bg-loop-v5c.mp4。
+
+完成
+- 已看交付眨眼逐帧图和正常大小对比。全景播放器实际解码1920×1080、9.125秒，loop=true、paused=false、无媒体错误；后续仍正常播放。
+- 原视频未经重编码，复制到源皮肤及正式皮肤。当前运行窗口持有旧manifest快照，另兼容旧v5入口为同一v5c内容，再通过原生皮肤中心“应用”热载入，避免重启DSH及其中的后台服务。
+- 正式窗口已出画，前后两张截图可见人物衣发和环境变化：screenshots/02-v5c正式实装.png、03-v5c正式播放后续帧.png。
+- 同步交互预览HTML、使用说明，以及0.4.2皮肤包/预览包；新包只包含v5c背景视频，旧包保留。
+- 白底黑纹CSS、工作区高度、消息/审批布局未改；未改核心插件、会话、模型、预设或权限。
+- 激活配置完整读回：{"active":"chatgpt-silvercourt-dsh","initialized":true}。
+
+备份与恢复
+/Users/qianweitao/Projects/dsh-chatgpt-skin/install-20261030/backup-before-v5c-20261030-233915
+其中installed-0.4.1是替换前完整安装皮肤，另存激活配置与本轮修改的预览源文件。
+退出DSH后双击恢复替换前v5背景.command，可恢复旧manifest和真正的旧v5视频。
+桌面交付原视频、其他版本、旧皮肤和原工程v5文件均保留。
+
+本轮检查类代码/文件：无新增探针、测试脚本或检查JSON。仅有备份、恢复脚本、截图、实装记录与交付包。临时播放器已关闭，本轮8771预览服务已停止。
+本次只接入用户确认的视频，不把正常播放声明为对每帧动画美术质量的全面保证。
+
+交付包
+/Users/qianweitao/Projects/dsh-chatgpt-skin/design-20261029/ChatGPT娘-云上银庭-DSH皮肤-v0.4.2.zip
+/Users/qianweitao/Projects/dsh-chatgpt-skin/design-20261029/ChatGPT娘-云上银庭-交互预览-v0.4.2.zip

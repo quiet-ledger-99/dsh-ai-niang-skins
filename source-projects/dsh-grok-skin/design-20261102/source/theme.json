@@ -1,0 +1,42 @@
+{
+  "theme": "grok",
+  "id": "grok-crimsoncourt-dsh",
+  "name": "Grok娘 · 绯月邀约",
+  "nameEn": "Grok · Crimson Invitation",
+  "wallpaper": "wallpaper-v4.png",
+  "accent": "#bb4965",
+  "tagline": "黑金绯月，窗边的血族邀约",
+  "description": "依据Grok娘原视觉卡与已认可的窗边近景设计。生图制作黑金珐琅器物图标、雕金丝绒输入框、玫瑰牌匾和侧栏材质，接入用户交回的Grok Bot v3正向主片与回程桥接背景。",
+  "tags": [
+    "Grok娘",
+    "血族",
+    "黑金",
+    "绯月",
+    "磨砂玻璃"
+  ],
+  "colors": {
+    "scheme": "dark",
+    "fg": "#f3e5d0",
+    "secondary": "#d0bda9",
+    "muted": "#ad9b90",
+    "surface": "#211923",
+    "raised": "#2e2230",
+    "third": "#3b2b38",
+    "fourth": "#503642",
+    "glass": "#201621e0",
+    "decision": "#211722f7",
+    "border": "#b88c5c66",
+    "accent": "#b64a65",
+    "onAccent": "#fff2e1",
+    "link": "#f1bdaa",
+    "hover": "#ca9c7026",
+    "side": "#18121cf5",
+    "sideFg": "#f3e4cc",
+    "sideMuted": "#c4b09d",
+    "code": "#100d16d9",
+    "inverted": "#21141e"
+  },
+  "version": "0.2.0",
+  "rasterIcons": true,
+  "backgroundVideo": "grok-feiyue-bg-loop-v3.mp4"
+}

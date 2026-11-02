@@ -1,0 +1,9 @@
+2026-10-29 从Google Drive重新取回并实际看图。
+主参考一：AI大模型拟人/output/chatgpt-character-sheet-20260925/ChatGPT娘-视觉角色卡-v1-候选.png
+https://drive.google.com/file/d/1RDcNFuBO_mpJflaOSYHRbfvrDHqYbxVG/view
+生成记录明确它是候选，背部为补绘；用于正面服饰的辅助观察。
+主参考二：chatgpt-dialogue-neutral-v1.png，2026-09-20干净对话母版1024x1536。
+https://drive.google.com/file/d/1XfXwd4cFLH9w97QjNgcMsimyrWwIEAV_/view
+既有9张不同对话表情及原全身已在前轮目检。此次重看原全身、视觉卡及neutral，重新对照编结、鳞片、翼膜和菱形流苏。
+用户明确这两张也是有效参考，应同时纳入；并非否定它们。
+这轮图标没有取用v5视频截图当设计依据。

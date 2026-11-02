@@ -1,0 +1,37 @@
+{
+  "skinManifestVersion": 2,
+  "id": "qianwen-moonporcelain-dsh",
+  "name": "千问娘 · 月下青瓷",
+  "nameEn": "Qianwen Moon Porcelain",
+  "version": "0.3.1",
+  "author": "qianweitao · Codex",
+  "tagline": "青花锦绣 · 瓷釉牡丹 · 金络垂珠",
+  "description": "千问娘月下青瓷动态主题：含眨眼过渡、人物呼吸、发梢流苏、柳枝、水面与灯光的16秒连续循环。",
+  "tags": [
+    "qianwen",
+    "porcelain",
+    "moon",
+    "chinese"
+  ],
+  "accent": "#adc9e9",
+  "order": 0,
+  "license": "Private evaluation; user-supplied character references",
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  },
+  "contributes": {
+    "stylesheet": "skin.css",
+    "patches": "patches.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "video",
+        "src": "assets/qianwen-moon-motion-v0.2.1.mp4"
+      },
+      "dark": {
+        "type": "video",
+        "src": "assets/qianwen-moon-motion-v0.2.1.mp4"
+      }
+    }
+  }
+}

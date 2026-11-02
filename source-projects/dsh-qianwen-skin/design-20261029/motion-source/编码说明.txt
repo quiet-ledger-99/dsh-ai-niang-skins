@@ -1,0 +1,5 @@
+成片来自 motion.js 的固定16秒场景，1672×941，目标30fps。
+WebM为浏览器编码；已按实际末帧时间戳补齐Duration元信息，未重编码画面。
+Duration定义参考 https://www.matroska.org/technical/elements.html
+编码帧数：476；总时长：16.005秒。
+源素材和眼帧均保留于皮肤assets目录。

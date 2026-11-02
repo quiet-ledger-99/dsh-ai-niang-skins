@@ -1,0 +1,32 @@
+后续更新：本地浏览器已恢复，实际界面核对已完成，无需用户寻找Work开关。请以“交付说明-v0.4.0.txt”及无“候选”后缀的0.4.0包为准。以下是早期快照说明。
+
+ChatGPT娘 · 云上银庭 0.4.0 白底黑纹候选
+
+用户确认的规则
+主色白色，黑色边纹点缀，紫色只作少量点缀。华丽感由白编结、鳞纹、翼骨、链坠、黑色凹刻及银灰高光构成。
+这次将规则从图标扩展到牌匾、侧栏、输入框、导航按钮、消息与询问审批、菜单和设置配色。
+
+已完成的文件工作
+内置image_gen编辑3块现有装饰，保持原尺寸和构图；牌匾及输入框2172x724带alpha，侧栏724x2172不透明。
+三块成图均已直接看图。白色为主要饰面，黑色细纹勾边，少量小淡紫石保留。未修改人物母版或v5视频。
+新样式：skin-inkwhite.css、patches-inkwhite.css；预览对应preview-inkwhite.css。
+白银图标沿用0.3.1。旧版本与源文件均保留，正式千问未替换。
+
+本轮图像编辑方式与绝对路径
+使用内置image_gen，不使用CLI/API备用流程。
+/Users/qianweitao/Projects/dsh-chatgpt-skin/design-20261029/skin/chatgpt-silvercourt-dsh/assets/ui/brand-inkwhite-v0.4.png
+/Users/qianweitao/Projects/dsh-chatgpt-skin/design-20261029/skin/chatgpt-silvercourt-dsh/assets/ui/composer-inkwhite-v0.4.png
+/Users/qianweitao/Projects/dsh-chatgpt-skin/design-20261029/skin/chatgpt-silvercourt-dsh/assets/ui/sidebar-inkwhite-v0.4.png
+/Users/qianweitao/Projects/dsh-chatgpt-skin/design-20261029/prompts/07-inkwhite-brand.txt
+/Users/qianweitao/Projects/dsh-chatgpt-skin/design-20261029/prompts/07-inkwhite-composer.txt
+/Users/qianweitao/Projects/dsh-chatgpt-skin/design-20261029/prompts/07-inkwhite-sidebar.txt
+
+实际界面验收尚未完成
+2026-10-29调用本地浏览器时，工具返回“Local browser use is disabled in Work settings”。未尝试绕过设置。
+已检查Mac工作区的preview-shot与.hermes/preview-shot，两者都不存在。
+因此没有0.4实际界面截图，也不能把旧0.3截图当成新版证据。皮肤中心预览暂用真实新牌匾素材，代表装饰图，不代表已运行截图。
+待用户开启本地浏览器控制后，继续：宽窄窗、实际输入文字、会话设计页、询问审批设计页、原生设置和账号菜单。询问审批设计页不等于真实模型权限流程验收。
+本轮未新增检查代码、探针或测试脚本；新增文件均为产品图形、样式、提示词与交付记录。
+
+预览与候选包
+http://127.0.0.1:8771/

@@ -1,0 +1,41 @@
+{
+  "theme": "deepseek",
+  "id": "deepseek-tidalglass-dsh",
+  "name": "DeepSeek娘 · 澄潮绮窗",
+  "nameEn": "DeepSeek · Tidalglass Atelier",
+  "wallpaper": "wallpaper-v3-seated.png",
+  "accent": "#416eaf",
+  "tagline": "鲸游绮窗，书页间的蓝白潮汐",
+  "description": "蓝白鲸系海馆藏珍设计：24枚珐琅器物图标、鲸尾贝壳输入框、珍珠牌匾、藏书封面侧栏与整套决策面板边框；保留用户选定的海底书房和Grok Bot v4背景。",
+  "tags": [
+    "DeepSeek娘",
+    "鲸系",
+    "蓝白",
+    "珐琅",
+    "磨砂玻璃"
+  ],
+  "colors": {
+    "scheme": "light",
+    "fg": "#243854",
+    "secondary": "#4a627e",
+    "muted": "#647d96",
+    "surface": "#f3f9ff",
+    "raised": "#e5f0fa",
+    "third": "#d3e5f2",
+    "fourth": "#b8d5ea",
+    "glass": "#f0f8ffe3",
+    "decision": "#f1f9fff7",
+    "border": "#658db666",
+    "accent": "#416eaf",
+    "onAccent": "#ffffff",
+    "link": "#305f9a",
+    "hover": "#6c9ec52b",
+    "side": "#142c4cf5",
+    "sideFg": "#eef8ff",
+    "sideMuted": "#bed3e7",
+    "code": "#dcebf5dd"
+  },
+  "version": "0.2.0",
+  "backgroundVideo": "deepseek-chengchao-bg-loop-v4.mp4",
+  "rasterIcons": true
+}

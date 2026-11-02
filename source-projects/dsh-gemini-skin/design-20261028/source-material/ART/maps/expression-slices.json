@@ -1,0 +1,30 @@
+[
+  {
+    "height" : 627,
+    "name" : "q-calm",
+    "width" : 627,
+    "x" : 0,
+    "y" : 0
+  },
+  {
+    "height" : 627,
+    "name" : "q-focus",
+    "width" : 627,
+    "x" : 627,
+    "y" : 0
+  },
+  {
+    "height" : 627,
+    "name" : "q-wink",
+    "width" : 627,
+    "x" : 0,
+    "y" : 627
+  },
+  {
+    "height" : 627,
+    "name" : "q-done",
+    "width" : 627,
+    "x" : 627,
+    "y" : 627
+  }
+]

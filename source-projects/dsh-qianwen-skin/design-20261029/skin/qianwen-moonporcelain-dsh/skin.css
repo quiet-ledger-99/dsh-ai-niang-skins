@@ -1,0 +1,60 @@
+/* Qianwen Moon Porcelain — DSH native tokens and semantic surfaces. */
+:root,body[data-ds-dark-theme]{
+ color:#eaf2fc;background-color:#101a2e;
+ --dsw-alias-bg-base:transparent;
+ --dsw-alias-bg-layer-1:#1c2b46;--dsw-alias-bg-layer-2:#263750;--dsw-alias-bg-layer-3:#324562;
+ --dsw-alias-bg-module-platform:#243550;--dsw-alias-bg-overlay:#30496c;
+ --dsw-alias-bg-mask-1:#050d2399;--dsw-alias-bg-mask-2:#050d2355;--dsw-alias-bg-mask-3:#050d23bb;
+ --dsw-alias-label-primary:#eaf2fc;--dsw-alias-label-secondary:#c5d7eb;--dsw-alias-label-tertiary:#a5bad1;
+ --dsw-alias-label-caption:#a6bad0;--dsw-alias-label-dimmed:#7992ad;--dsw-alias-label-primary-dimmed:#b2c6dd;
+ --dsw-alias-label-primary-inverted:#152741;--dsw-alias-label-primary-foreground:#fffaf0;
+ --dsw-alias-brand-primary:#b7d0f3;--dsw-alias-brand-primary-invert:#15213a;--dsw-alias-brand-text:#d2e4fc;
+ --dsw-alias-button-primary-fill:#466ba7;--dsw-alias-button-primary-hover:#587fba;--dsw-alias-button-primary-dimmed:#3a5375;
+ --dsw-alias-button-floating-fill:#2b4263;--dsw-alias-button-floating-hover:#385274;--dsw-alias-button-elevated-fill:#2a4161;
+ --dsw-alias-button-ghost-active-fill:#9ebde932;--dsw-alias-button-ghost-active-hover:#a7c7ed45;--dsw-alias-button-ghost-active-border:#b7c8df80;
+ --dsw-alias-interactive-bg-hover:#b0cae91e;--dsw-alias-interactive-bg-hover-solid:#355477;--dsw-alias-interactive-bg-active:#a0c1e832;
+ --dsw-alias-interactive-bg-hover-accent:#d4bd8628;
+ --dsw-alias-border-l1:#b5cce526;--dsw-alias-border-l2:#b5cce544;--dsw-alias-border-l2-darkmode-thin:#b5cce544;
+ --dsw-alias-border-l3:#b5cce566;--dsw-alias-border-l4:#c5d7eb88;
+ --dsw-alias-state-business-primary:#abc9ed;--dsw-alias-state-business-tertiary:#334f74;--dsw-alias-link:#c2ddff;
+ --dsw-specific-sidebar-fill:#16253f;--dsw-specific-sidebar-nav-item-active:#96b8e32b;--dsw-specific-sidebar-nav-item-hover:#a4c3ea1c;
+ --dsw-specific-sidebar-nav-item-active-accent:#d9bd85;--dsw-specific-input-major:#eff5fb;
+ --dsw-specific-menu:#1b2c47f5;--dsw-menu-surface-fill:#1b2c47f5;--dsw-specific-selector:#355477;--dsw-specific-tip:#263c59;
+ --dsw-specific-bubble:#30496780;--dsw-specific-bubble-highlight:#3d5878;
+ --dsw-alias-scrollbar-bg-l1:#9eb7d055;--dsw-alias-scrollbar-bg-l2:#9eb7d055;
+ --dsw-alias-scrollbar-hover-l1:#b4cbe077;--dsw-alias-scrollbar-hover-l2:#b4cbe077;
+ --dsw-alias-tooltip-bg:#eef4fc;--dsw-alias-tooltip-fg:#233b5d;--dsw-alias-toast-bg:#2d486d;
+ --dsw-alias-markdown-code-block:#0c1830a8;--dsw-alias-markdown-code-block-banner:#1a2b4599;--dsw-alias-markdown-inline-code:#b5cfee26;
+ --qw-unit:max(calc(100vw / 1672),calc(100vh / 941));
+ --qw-art-w:calc(var(--qw-unit) * 1672);--qw-art-h:calc(var(--qw-unit) * 941);
+ --qw-x:calc(100vw - var(--qw-art-w));--qw-y:calc(100vh - var(--qw-art-h));
+}
+[data-dsh-surface="root"]{background:transparent}
+[data-dsh-surface="sidebar"]{background:linear-gradient(125deg,#152843e8,#111e35e8);border-right:1px solid #b7cce32e;color:#d9e7f5}
+[data-dsh-surface="conversation"]{background:linear-gradient(90deg,#08152b80,#0c193239 55%,#17293c08);isolation:isolate}
+[data-dsh-surface="session-header"]{background:#14223bb3;border-bottom:1px solid #c5d5e526;color:#dceaf8}
+[data-dsh-surface="details"]{background:#182842eb;border-left:1px solid #c2d4e63b}
+[data-dsh-part="new-session"]{background:linear-gradient(115deg,#476fa8,#385b90);color:#fffaf0;border:1px solid #c7b187a8;border-radius:7px;box-shadow:inset 0 0 0 2px #bdd3ef12,0 3px 7px #06112933;font-weight:500}
+[data-dsh-part="new-session"]:hover{background:linear-gradient(115deg,#557eb7,#446ba1)}
+[data-dsh-part="message-body"]{--dsw-alias-label-primary:#eef5ff;--dsw-alias-label-secondary:#cfdeee;--dsw-alias-label-tertiary:#b5c9df;--dsw-alias-link:#c8e0ff;color:#eef5ff;background:linear-gradient(125deg,#12223a8c,#24355161);border:1px solid #cad9e933;border-radius:12px;padding:22px 26px;box-shadow:0 4px 15px #050e241e}
+[data-dsh-part="message-body"] :is(p,li,h1,h2,h3,h4,blockquote,table){color:inherit}
+[data-dsh-part="message-body"] :is(h1,h2){font-family:"Songti SC","STSong",serif;font-weight:500;letter-spacing:.7px}
+[data-dsh-part="message-body"] a{color:#c8e0ff}
+[data-dsh-part="message-body"] :is(pre,code){color:inherit}
+[data-changed-files],[data-presented-file]{--changes-fill:#152840a6;--changes-hover:#2d496a99;--dsw-alias-label-primary:#eaf3ff;--dsw-alias-label-secondary:#c8d9ec;--dsw-alias-label-tertiary:#b7cbe0;--dsw-alias-bg-layer-1:#243853;--dsw-alias-bg-layer-2:#304968;background:#152840a6!important;color:#eaf3ff;border-color:#bbd3e93d}
+/* Settings are a complete light porcelain surface; card and control tokens must match the text. */
+[data-dsh-surface="settings"]{
+ color-scheme:light;background:#edf4fb;color:#233953;
+ --dsw-alias-bg-base:#edf4fb;--dsw-alias-bg-layer-1:#f7fbff;--dsw-alias-bg-layer-2:#e6eff8;--dsw-alias-bg-layer-3:#d9e7f4;--dsw-alias-bg-layer-4:#ccdeee;
+ --dsw-alias-bg-module-platform:#e2edf7;--dsw-alias-bg-overlay:#f8fbff;--dsw-alias-bg-skeleton:#d6e4f2;
+ --dsw-alias-settings-card-fill:#f8fbff;--dsw-alias-settings-card-stroke:#9ab4d066;
+ --dsw-alias-label-primary:#233953;--dsw-alias-label-secondary:#496580;--dsw-alias-label-tertiary:#5d7690;--dsw-alias-label-caption:#5d7690;--dsw-alias-label-dimmed:#6a8198;--dsw-alias-label-primary-dimmed:#5d7690;
+ --dsw-alias-label-primary-inverted:#f8fbff;--dsw-alias-label-primary-foreground:#fffaf0;--dsw-alias-menu-icon:#496580;
+ --dsw-alias-brand-primary:#466ba7;--dsw-alias-brand-primary-new-colorprimary-new-color:#466ba7;--dsw-alias-brand-text:#356798;--dsw-alias-link:#356798;
+ --dsw-alias-border-l1:#9ab4d055;--dsw-alias-border-l2:#9ab4d077;--dsw-alias-border-l2-darkmode-thin:#9ab4d077;--dsw-alias-border-l3:#8ca9c599;--dsw-alias-border-l4:#7797b6b3;--dsw-alias-border-inverted:#fff;
+ --dsw-alias-interactive-bg-hover:#7395be1c;--dsw-alias-interactive-bg-hover-solid:#dce8f4;--dsw-alias-interactive-bg-active:#7395be2b;
+ --dsw-alias-button-primary-dimmed:#dbe7f5;--dsw-alias-button-floating-fill:#e1ecf7;--dsw-alias-button-floating-hover:#d6e5f4;--dsw-alias-button-elevated-fill:#f8fbff;
+ --dsw-alias-state-business-primary:#466ba7;--dsw-alias-state-business-tertiary:#d6e5f4;--dsw-specific-input-major:#f8fbff;--dsw-specific-selector:#d6e5f4;
+ --dsw-alias-scrollbar-bg-l1:#8ca9c555;--dsw-alias-scrollbar-bg-l2:#8ca9c555;--dsw-alias-scrollbar-hover-l1:#6b8eae88;--dsw-alias-scrollbar-hover-l2:#6b8eae88;
+}
+body::selection{background:#b5cce9;color:#162d4e}

@@ -1,0 +1,37 @@
+{
+  "skinManifestVersion": 2,
+  "id": "gemini-starwork-dsh",
+  "name": "Gemini 娘 · 星光工作台",
+  "nameEn": "Gemini Starwork",
+  "version": "0.1.7",
+  "author": "qianweitao · Codex",
+  "tagline": "透明夜色消息层 · Gemini 眨眼与尾摆 · 轻纸艺输入框",
+  "description": "为 DeepSeek Harness 0.2.1-rc.3 制作的 Gemini 娘皮肤：保留原生消息、模型和权限控件，使用现有角色与纸艺素材。",
+  "tags": [
+    "gemini",
+    "pixel",
+    "paper",
+    "night"
+  ],
+  "accent": "#a9a0ef",
+  "order": 0,
+  "license": "Private evaluation artwork; user supplied references",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "patches": "patches.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/gemini-starfall-wallpaper.png"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/gemini-starfall-wallpaper.png"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}

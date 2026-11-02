@@ -1,0 +1,126 @@
+{
+  "columns": 4,
+  "rows": 3,
+  "icons": {
+    "plugins": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 0,
+      "row": 0
+    },
+    "schedules": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 1,
+      "row": 0
+    },
+    "board": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 2,
+      "row": 0
+    },
+    "memory": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 3,
+      "row": 0
+    },
+    "more": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 0,
+      "row": 1
+    },
+    "search": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 1,
+      "row": 1
+    },
+    "filter": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 2,
+      "row": 1
+    },
+    "add-workspace": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 3,
+      "row": 1
+    },
+    "folder": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 0,
+      "row": 2
+    },
+    "folder-open": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 1,
+      "row": 2
+    },
+    "pair-phone": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 2,
+      "row": 2
+    },
+    "remote-access": {
+      "atlas": "icon-nav-atlas.png",
+      "column": 3,
+      "row": 2
+    },
+    "settings": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 0,
+      "row": 0
+    },
+    "feedback": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 1,
+      "row": 0
+    },
+    "logout": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 2,
+      "row": 0
+    },
+    "login": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 3,
+      "row": 0
+    },
+    "attach": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 0,
+      "row": 1
+    },
+    "permission": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 1,
+      "row": 1
+    },
+    "send": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 2,
+      "row": 1
+    },
+    "model": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 3,
+      "row": 1
+    },
+    "preset": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 0,
+      "row": 2
+    },
+    "crest": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 1,
+      "row": 2
+    },
+    "new-session": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 2,
+      "row": 2
+    },
+    "close": {
+      "atlas": "icon-controls-atlas.png",
+      "column": 3,
+      "row": 2
+    }
+  }
+}

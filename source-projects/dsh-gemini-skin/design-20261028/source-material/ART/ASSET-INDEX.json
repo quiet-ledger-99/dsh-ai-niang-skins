@@ -1,0 +1,912 @@
+{
+  "runtimeAssets": 36,
+  "deduplicatedReusablePNG": 66,
+  "notes": "ART/runtime is the current preferred runtime art. ART/extras includes original sheets, supplemental icons and superseded variants, not a new approved art direction. Do not overwrite current identity or light-paper direction with earlier mechanical drafts. Reference card/star/approved board are separate.",
+  "files": [
+    {
+      "path": "ART/runtime/gemini-starfall-wallpaper.png",
+      "sha256": "3b6572a8c1a6f710a208d049677e1a07d868c886b44406fc764d252443c9709c",
+      "bytes": 2091383,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/gemini-starfall-wallpaper.png",
+        "20261027-v6/assets/gemini-starfall-wallpaper.png",
+        "20261027-v7-companion-quota/assets/gemini-starfall-wallpaper.png",
+        "20261027-v8-light-input/assets/gemini-starfall-wallpaper.png",
+        "20261027-v9-sidebar-fit/assets/gemini-starfall-wallpaper.png",
+        "20261028-v10-straight-seams/assets/gemini-starfall-wallpaper.png",
+        "20261028-v11-responsive/assets/gemini-starfall-wallpaper.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/sprites/blink-left.png",
+      "sha256": "c1cec6bdbdf4edd6131313c8f9d80d51ac1395935a917a96465ef31c578c9e27",
+      "bytes": 4285,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/sprites/blink-left.png",
+        "20261027-v6/assets/sprites/blink-left.png",
+        "20261027-v7-companion-quota/assets/sprites/blink-left.png",
+        "20261027-v8-light-input/assets/sprites/blink-left.png",
+        "20261027-v9-sidebar-fit/assets/sprites/blink-left.png",
+        "20261028-v10-straight-seams/assets/sprites/blink-left.png",
+        "20261028-v11-responsive/assets/sprites/blink-left.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/sprites/blink-right.png",
+      "sha256": "200b6e0d2c1cde11eff17377b9accab8d3d1c3ca3cbe6b7e84112bf31c330cce",
+      "bytes": 4753,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/sprites/blink-right.png",
+        "20261027-v6/assets/sprites/blink-right.png",
+        "20261027-v7-companion-quota/assets/sprites/blink-right.png",
+        "20261027-v8-light-input/assets/sprites/blink-right.png",
+        "20261027-v9-sidebar-fit/assets/sprites/blink-right.png",
+        "20261028-v10-straight-seams/assets/sprites/blink-right.png",
+        "20261028-v11-responsive/assets/sprites/blink-right.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/sprites/tail-low.png",
+      "sha256": "b87d67558a7c26e814a64e0d9fe9c59232937aa8a088a07a32595e9e63c0ed21",
+      "bytes": 174226,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/sprites/tail-low.png",
+        "20261027-v6/assets/sprites/tail-low.png",
+        "20261027-v7-companion-quota/assets/sprites/tail-low.png",
+        "20261027-v8-light-input/assets/sprites/tail-low.png",
+        "20261027-v9-sidebar-fit/assets/sprites/tail-low.png",
+        "20261028-v10-straight-seams/assets/sprites/tail-low.png",
+        "20261028-v11-responsive/assets/sprites/tail-low.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/sprites/tail-neutral.png",
+      "sha256": "1fb89885f2c1bd507158b0b45803b258b772b72eb79cf0d597d60f13cee1f4fd",
+      "bytes": 177201,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/sprites/tail-neutral.png",
+        "20261027-v6/assets/sprites/tail-neutral.png",
+        "20261027-v7-companion-quota/assets/sprites/tail-neutral.png",
+        "20261027-v8-light-input/assets/sprites/tail-neutral.png",
+        "20261027-v9-sidebar-fit/assets/sprites/tail-neutral.png",
+        "20261028-v10-straight-seams/assets/sprites/tail-neutral.png",
+        "20261028-v11-responsive/assets/sprites/tail-neutral.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/sprites/tail-mid.png",
+      "sha256": "5110ade7324e3675524bb7687a3e83f567e51bad055d9a499d55730f509b0795",
+      "bytes": 172899,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/sprites/tail-mid.png",
+        "20261027-v6/assets/sprites/tail-mid.png",
+        "20261027-v7-companion-quota/assets/sprites/tail-mid.png",
+        "20261027-v8-light-input/assets/sprites/tail-mid.png",
+        "20261027-v9-sidebar-fit/assets/sprites/tail-mid.png",
+        "20261028-v10-straight-seams/assets/sprites/tail-mid.png",
+        "20261028-v11-responsive/assets/sprites/tail-mid.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/sprites/tail-high.png",
+      "sha256": "185c6a5c6b1637790c4a461dbdfaa6bcde11213a3cb2586d8b4dc3a7dce381da",
+      "bytes": 204662,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/sprites/tail-high.png",
+        "20261027-v6/assets/sprites/tail-high.png",
+        "20261027-v7-companion-quota/assets/sprites/tail-high.png",
+        "20261027-v8-light-input/assets/sprites/tail-high.png",
+        "20261027-v9-sidebar-fit/assets/sprites/tail-high.png",
+        "20261028-v10-straight-seams/assets/sprites/tail-high.png",
+        "20261028-v11-responsive/assets/sprites/tail-high.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/sidebar-identity.png",
+      "sha256": "b180fa0fb3204d13e45f266983f99d5c71176f170ad83ee3fab447ce0cd0a92a",
+      "bytes": 352694,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/sidebar-identity.png",
+        "20261027-v8-light-input/assets/ui/sidebar-identity.png",
+        "20261027-v9-sidebar-fit/assets/ui/sidebar-identity.png",
+        "20261028-v10-straight-seams/assets/ui/sidebar-identity.png",
+        "20261028-v11-responsive/assets/ui/sidebar-identity.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/sidebar-navigation.png",
+      "sha256": "0c321c32641f5324edf97702662097b8b49a07a175571083257c7b4bf59794d8",
+      "bytes": 268000,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/sidebar-navigation.png",
+        "20261027-v8-light-input/assets/ui/sidebar-navigation.png",
+        "20261027-v9-sidebar-fit/assets/ui/sidebar-navigation.png",
+        "20261028-v10-straight-seams/assets/ui/sidebar-navigation.png",
+        "20261028-v11-responsive/assets/ui/sidebar-navigation.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/sidebar-lists.png",
+      "sha256": "376461f443685f1a09c9d5f6f61ab4f5b7c2af3328de3630380a92cafbbb6ca3",
+      "bytes": 1304169,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/sidebar-lists.png",
+        "20261027-v8-light-input/assets/ui/sidebar-lists.png",
+        "20261027-v9-sidebar-fit/assets/ui/sidebar-lists.png",
+        "20261028-v10-straight-seams/assets/ui/sidebar-lists.png",
+        "20261028-v11-responsive/assets/ui/sidebar-lists.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/list-cap-top-aligned.png",
+      "sha256": "62fdd6d0a294b8bc7da35c3d0663a4cdc81933a7278d49a460509511b4856970",
+      "bytes": 275899,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/list-cap-top-aligned.png",
+        "20261028-v10-straight-seams/assets/ui/list-cap-top-aligned.png",
+        "20261028-v11-responsive/assets/ui/list-cap-top-aligned.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/list-cap-bottom-aligned.png",
+      "sha256": "f485bff9c104b0b491f2206324570d1e94929c528ddb9f0988ea373ca389366f",
+      "bytes": 294296,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/list-cap-bottom-aligned.png",
+        "20261028-v10-straight-seams/assets/ui/list-cap-bottom-aligned.png",
+        "20261028-v11-responsive/assets/ui/list-cap-bottom-aligned.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/list-constant-rail.png",
+      "sha256": "3318ad4d711c7de1f81b442a72540ed9a81a9e62b38674f83787eb986db82f2e",
+      "bytes": 1296,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/list-constant-rail.png",
+        "20261028-v10-straight-seams/assets/ui/list-constant-rail.png",
+        "20261028-v11-responsive/assets/ui/list-constant-rail.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/light-input-backing.png",
+      "sha256": "3af75992232e9d4cfffa456a871e56438911a0646958e331b64a75eccd699fb8",
+      "bytes": 1910545,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/light-input-backing.png",
+        "20261027-v8-light-input/assets/ui/light-input-backing.png",
+        "20261027-v9-sidebar-fit/assets/ui/light-input-backing.png",
+        "20261028-v10-straight-seams/assets/ui/light-input-backing.png",
+        "20261028-v11-responsive/assets/ui/light-input-backing.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/nav.png",
+      "sha256": "c7e949f11b3c28bbb785e4fc4ddc4598a9c731705bd57d6c111f31fabcb41d13",
+      "bytes": 58527,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/nav.png",
+        "20261027-v6/assets/ui/nav.png",
+        "20261027-v7-companion-quota/assets/ui/nav.png",
+        "20261027-v8-light-input/assets/ui/nav.png",
+        "20261027-v9-sidebar-fit/assets/ui/nav.png",
+        "20261028-v10-straight-seams/assets/ui/nav.png",
+        "20261028-v11-responsive/assets/ui/nav.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/tab-idle.png",
+      "sha256": "9cdb735068e4334ee1636e16fa933f4b7f5427e3fe899075869fa5b497957b36",
+      "bytes": 27081,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/tab-idle.png",
+        "20261027-v6/assets/ui/tab-idle.png",
+        "20261027-v7-companion-quota/assets/ui/tab-idle.png",
+        "20261027-v8-light-input/assets/ui/tab-idle.png",
+        "20261027-v9-sidebar-fit/assets/ui/tab-idle.png",
+        "20261028-v10-straight-seams/assets/ui/tab-idle.png",
+        "20261028-v11-responsive/assets/ui/tab-idle.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/tab-active.png",
+      "sha256": "c86818ced41ce50eef9159ffa805b43a9f8eb15b9b342851ac23785a1b560b29",
+      "bytes": 28392,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/tab-active.png",
+        "20261027-v6/assets/ui/tab-active.png",
+        "20261027-v7-companion-quota/assets/ui/tab-active.png",
+        "20261027-v8-light-input/assets/ui/tab-active.png",
+        "20261027-v9-sidebar-fit/assets/ui/tab-active.png",
+        "20261028-v10-straight-seams/assets/ui/tab-active.png",
+        "20261028-v11-responsive/assets/ui/tab-active.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/primary-idle.png",
+      "sha256": "3911c592d9fcad6b491e82610a7ced8b358e7c216c28fd034c72dc07fe639447",
+      "bytes": 36225,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/primary-idle.png",
+        "20261027-v6/assets/ui/primary-idle.png",
+        "20261027-v7-companion-quota/assets/ui/primary-idle.png",
+        "20261027-v8-light-input/assets/ui/primary-idle.png",
+        "20261027-v9-sidebar-fit/assets/ui/primary-idle.png",
+        "20261028-v10-straight-seams/assets/ui/primary-idle.png",
+        "20261028-v11-responsive/assets/ui/primary-idle.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/primary-hover.png",
+      "sha256": "c725f7557d73d31dfb146de7a0c27d3a83a4fe6cbcb000999a043bb734b3705b",
+      "bytes": 40924,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/primary-hover.png",
+        "20261027-v6/assets/ui/primary-hover.png",
+        "20261027-v7-companion-quota/assets/ui/primary-hover.png",
+        "20261027-v8-light-input/assets/ui/primary-hover.png",
+        "20261027-v9-sidebar-fit/assets/ui/primary-hover.png",
+        "20261028-v10-straight-seams/assets/ui/primary-hover.png",
+        "20261028-v11-responsive/assets/ui/primary-hover.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/primary-down.png",
+      "sha256": "76cb22c4011e4230b3bd7d2eb6a9f363b30e88b7080d622ce6d5aa29c69ee9ca",
+      "bytes": 36020,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/primary-down.png",
+        "20261027-v6/assets/ui/primary-down.png",
+        "20261027-v7-companion-quota/assets/ui/primary-down.png",
+        "20261027-v8-light-input/assets/ui/primary-down.png",
+        "20261027-v9-sidebar-fit/assets/ui/primary-down.png",
+        "20261028-v10-straight-seams/assets/ui/primary-down.png",
+        "20261028-v11-responsive/assets/ui/primary-down.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/secondary-idle.png",
+      "sha256": "f264d3bbf6d02d8501a8f8f196b572b12d14bd5240951ad3ed5bbda61e196faa",
+      "bytes": 31467,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/secondary-idle.png",
+        "20261027-v6/assets/ui/secondary-idle.png",
+        "20261027-v7-companion-quota/assets/ui/secondary-idle.png",
+        "20261027-v8-light-input/assets/ui/secondary-idle.png",
+        "20261027-v9-sidebar-fit/assets/ui/secondary-idle.png",
+        "20261028-v10-straight-seams/assets/ui/secondary-idle.png",
+        "20261028-v11-responsive/assets/ui/secondary-idle.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/secondary-hover.png",
+      "sha256": "a7cd8470b86c46139d81c70b2a852027e82bd3cfe5658ed1f3cd86c933d6a06c",
+      "bytes": 37562,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/secondary-hover.png",
+        "20261027-v6/assets/ui/secondary-hover.png",
+        "20261027-v7-companion-quota/assets/ui/secondary-hover.png",
+        "20261027-v8-light-input/assets/ui/secondary-hover.png",
+        "20261027-v9-sidebar-fit/assets/ui/secondary-hover.png",
+        "20261028-v10-straight-seams/assets/ui/secondary-hover.png",
+        "20261028-v11-responsive/assets/ui/secondary-hover.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/secondary-down.png",
+      "sha256": "f1f6967e0a432dcb086eb32050b7d5d393ce43a6c0d29a5ef0204eab49ea3bbe",
+      "bytes": 32239,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/secondary-down.png",
+        "20261027-v6/assets/ui/secondary-down.png",
+        "20261027-v7-companion-quota/assets/ui/secondary-down.png",
+        "20261027-v8-light-input/assets/ui/secondary-down.png",
+        "20261027-v9-sidebar-fit/assets/ui/secondary-down.png",
+        "20261028-v10-straight-seams/assets/ui/secondary-down.png",
+        "20261028-v11-responsive/assets/ui/secondary-down.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/modal.png",
+      "sha256": "953accffe514c81d86b6bbeb0ce1410c28741206b6e1d542539a62ae9e7b19dc",
+      "bytes": 237693,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/modal.png",
+        "20261027-v6/assets/ui/modal.png",
+        "20261027-v7-companion-quota/assets/ui/modal.png",
+        "20261027-v8-light-input/assets/ui/modal.png",
+        "20261027-v9-sidebar-fit/assets/ui/modal.png",
+        "20261028-v10-straight-seams/assets/ui/modal.png",
+        "20261028-v11-responsive/assets/ui/modal.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/rail.png",
+      "sha256": "efca84e3816879685365232993771fad242b9702e7686c54d89ae6b3966c6642",
+      "bytes": 78168,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/rail.png",
+        "20261027-v6/assets/ui/rail.png",
+        "20261027-v7-companion-quota/assets/ui/rail.png",
+        "20261027-v8-light-input/assets/ui/rail.png",
+        "20261027-v9-sidebar-fit/assets/ui/rail.png",
+        "20261028-v10-straight-seams/assets/ui/rail.png",
+        "20261028-v11-responsive/assets/ui/rail.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/header-left.png",
+      "sha256": "5cb9afa2e271bd30163624b6c2e752139d17720609150578f191c50575497aa0",
+      "bytes": 83839,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/header-left.png",
+        "20261027-v6/assets/ui/header-left.png",
+        "20261027-v7-companion-quota/assets/ui/header-left.png",
+        "20261027-v8-light-input/assets/ui/header-left.png",
+        "20261027-v9-sidebar-fit/assets/ui/header-left.png",
+        "20261028-v10-straight-seams/assets/ui/header-left.png",
+        "20261028-v11-responsive/assets/ui/header-left.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/header-mid.png",
+      "sha256": "edaf460a2824c1aa2f651f1c417bf2aafa44e1c3d7ab2b51a6c85619aa8c8e1d",
+      "bytes": 31872,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/header-mid.png",
+        "20261027-v6/assets/ui/header-mid.png",
+        "20261027-v7-companion-quota/assets/ui/header-mid.png",
+        "20261027-v8-light-input/assets/ui/header-mid.png",
+        "20261027-v9-sidebar-fit/assets/ui/header-mid.png",
+        "20261028-v10-straight-seams/assets/ui/header-mid.png",
+        "20261028-v11-responsive/assets/ui/header-mid.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/header-right.png",
+      "sha256": "390972cc3e42150e5aea202b24e4801295f3f304f6b8b09d104e942199c03b01",
+      "bytes": 28251,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/header-right.png",
+        "20261027-v6/assets/ui/header-right.png",
+        "20261027-v7-companion-quota/assets/ui/header-right.png",
+        "20261027-v8-light-input/assets/ui/header-right.png",
+        "20261027-v9-sidebar-fit/assets/ui/header-right.png",
+        "20261028-v10-straight-seams/assets/ui/header-right.png",
+        "20261028-v11-responsive/assets/ui/header-right.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/gemini-fourpoint-star.png",
+      "sha256": "56132e43df72cd9918cf871dc3a9f9bec47181e00b97612e6780c6c1b041ddff",
+      "bytes": 364113,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/gemini-fourpoint-star.png",
+        "20261027-v7-companion-quota/assets/ui/gemini-fourpoint-star.png",
+        "20261027-v8-light-input/assets/ui/gemini-fourpoint-star.png",
+        "20261027-v9-sidebar-fit/assets/ui/gemini-fourpoint-star.png",
+        "20261028-v10-straight-seams/assets/ui/gemini-fourpoint-star.png",
+        "20261028-v11-responsive/assets/ui/gemini-fourpoint-star.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/q-calm.png",
+      "sha256": "42486854121f0399b36a379367f5ae1533fb6b1ac3a0d92386b1d9e838cc1329",
+      "bytes": 611735,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/q-calm.png",
+        "20261027-v6/assets/ui/q-calm.png",
+        "20261027-v7-companion-quota/assets/ui/q-calm.png",
+        "20261027-v8-light-input/assets/ui/q-calm.png",
+        "20261027-v9-sidebar-fit/assets/ui/q-calm.png",
+        "20261028-v10-straight-seams/assets/ui/q-calm.png",
+        "20261028-v11-responsive/assets/ui/q-calm.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/q-focus.png",
+      "sha256": "a54c3091b5029b1e59fb89a1945bae06de517315791085c8aeea554362ac5066",
+      "bytes": 600925,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/q-focus.png",
+        "20261027-v6/assets/ui/q-focus.png",
+        "20261027-v7-companion-quota/assets/ui/q-focus.png",
+        "20261027-v8-light-input/assets/ui/q-focus.png",
+        "20261027-v9-sidebar-fit/assets/ui/q-focus.png",
+        "20261028-v10-straight-seams/assets/ui/q-focus.png",
+        "20261028-v11-responsive/assets/ui/q-focus.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/q-done.png",
+      "sha256": "e8e73d8bd2a96dd70b347d497af4700cf2038334364dec90405726acc4018be5",
+      "bytes": 603666,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/q-done.png",
+        "20261027-v6/assets/ui/q-done.png",
+        "20261027-v7-companion-quota/assets/ui/q-done.png",
+        "20261027-v8-light-input/assets/ui/q-done.png",
+        "20261027-v9-sidebar-fit/assets/ui/q-done.png",
+        "20261028-v10-straight-seams/assets/ui/q-done.png",
+        "20261028-v11-responsive/assets/ui/q-done.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/q-wink.png",
+      "sha256": "77be983bdfda2a4fd93aecf6eed7dea2e3679ec839c1c5d5acf313e4a9063e34",
+      "bytes": 607866,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/q-wink.png",
+        "20261027-v6/assets/ui/q-wink.png",
+        "20261027-v7-companion-quota/assets/ui/q-wink.png",
+        "20261027-v8-light-input/assets/ui/q-wink.png",
+        "20261027-v9-sidebar-fit/assets/ui/q-wink.png",
+        "20261028-v10-straight-seams/assets/ui/q-wink.png",
+        "20261028-v11-responsive/assets/ui/q-wink.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/body-welcome.png",
+      "sha256": "0f00f8f3755fd8be51b989437edd9a8ffb1f635d190a940727c1ca269059e3d1",
+      "bytes": 616903,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/body-welcome.png",
+        "20261027-v7-companion-quota/assets/ui/body-welcome.png",
+        "20261027-v8-light-input/assets/ui/body-welcome.png",
+        "20261027-v9-sidebar-fit/assets/ui/body-welcome.png",
+        "20261028-v10-straight-seams/assets/ui/body-welcome.png",
+        "20261028-v11-responsive/assets/ui/body-welcome.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/body-empty.png",
+      "sha256": "f75237a22a56d6ea8d59c6d812e091754b19d8fed3a221ae443f8c8ea11c9144",
+      "bytes": 561025,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/body-empty.png",
+        "20261027-v7-companion-quota/assets/ui/body-empty.png",
+        "20261027-v8-light-input/assets/ui/body-empty.png",
+        "20261027-v9-sidebar-fit/assets/ui/body-empty.png",
+        "20261028-v10-straight-seams/assets/ui/body-empty.png",
+        "20261028-v11-responsive/assets/ui/body-empty.png"
+      ]
+    },
+    {
+      "path": "ART/runtime/ui/body-complete.png",
+      "sha256": "8673c8c85231b82201cb0b9734f4a0f19272a8341298faecaf00ca0dd6f8bb16",
+      "bytes": 575863,
+      "preferredRuntime": true,
+      "sourceVariants": [
+        "20261028-v11-chatgpt-adapter/assets/ui/body-complete.png",
+        "20261027-v7-companion-quota/assets/ui/body-complete.png",
+        "20261027-v8-light-input/assets/ui/body-complete.png",
+        "20261027-v9-sidebar-fit/assets/ui/body-complete.png",
+        "20261028-v10-straight-seams/assets/ui/body-complete.png",
+        "20261028-v11-responsive/assets/ui/body-complete.png"
+      ]
+    },
+    {
+      "path": "ART/extras/expressions-original-443383206e.png",
+      "sha256": "443383206ee8193c3d4c6632114570ea0e8c26c1a886d72e345f095c82da788f",
+      "bytes": 2084221,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/expressions-original.png",
+        "20261027-v7-companion-quota/assets/expressions-original.png",
+        "20261027-v8-light-input/assets/expressions-original.png",
+        "20261027-v9-sidebar-fit/assets/expressions-original.png",
+        "20261028-v10-straight-seams/assets/expressions-original.png",
+        "20261028-v11-responsive/assets/expressions-original.png"
+      ]
+    },
+    {
+      "path": "ART/extras/gemini-avatar-a203556f4b.png",
+      "sha256": "a203556f4b6da1ed91024ce9025ff897dcafffb585fc6896175bcb4d0abf04a5",
+      "bytes": 185690,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/sprites/gemini-avatar.png",
+        "20261027-v7-companion-quota/assets/sprites/gemini-avatar.png",
+        "20261027-v8-light-input/assets/sprites/gemini-avatar.png",
+        "20261027-v9-sidebar-fit/assets/sprites/gemini-avatar.png",
+        "20261028-v10-straight-seams/assets/sprites/gemini-avatar.png",
+        "20261028-v11-responsive/assets/sprites/gemini-avatar.png"
+      ]
+    },
+    {
+      "path": "ART/extras/frame-f9bdf66fcb.png",
+      "sha256": "f9bdf66fcb8cfe621cb1ba0fe65c690a854595dd162ff2fa9f081e94075b0e6f",
+      "bytes": 500209,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/frame.png",
+        "20261027-v7-companion-quota/assets/ui/frame.png",
+        "20261027-v8-light-input/assets/ui/frame.png",
+        "20261027-v9-sidebar-fit/assets/ui/frame.png",
+        "20261028-v10-straight-seams/assets/ui/frame.png",
+        "20261028-v11-responsive/assets/ui/frame.png"
+      ]
+    },
+    {
+      "path": "ART/extras/icon-code-0f26d92c60.png",
+      "sha256": "0f26d92c6096e714495e436930703a09b06656ccfae8b01148617e026358858e",
+      "bytes": 19512,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/icon-code.png",
+        "20261027-v7-companion-quota/assets/ui/icon-code.png",
+        "20261027-v8-light-input/assets/ui/icon-code.png",
+        "20261027-v9-sidebar-fit/assets/ui/icon-code.png",
+        "20261028-v10-straight-seams/assets/ui/icon-code.png",
+        "20261028-v11-responsive/assets/ui/icon-code.png"
+      ]
+    },
+    {
+      "path": "ART/extras/icon-file-16b565771a.png",
+      "sha256": "16b565771af289fc9c6d45f5c5109684c2e96244a0562d844cd0279c01a8dbba",
+      "bytes": 18149,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/icon-file.png",
+        "20261027-v7-companion-quota/assets/ui/icon-file.png",
+        "20261027-v8-light-input/assets/ui/icon-file.png",
+        "20261027-v9-sidebar-fit/assets/ui/icon-file.png",
+        "20261028-v10-straight-seams/assets/ui/icon-file.png",
+        "20261028-v11-responsive/assets/ui/icon-file.png"
+      ]
+    },
+    {
+      "path": "ART/extras/icon-folder-9fa17a65a5.png",
+      "sha256": "9fa17a65a5b728179edece5e7f9f8ca14d1248e7554f21c959147943a401f8ea",
+      "bytes": 16967,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/icon-folder.png",
+        "20261027-v7-companion-quota/assets/ui/icon-folder.png",
+        "20261027-v8-light-input/assets/ui/icon-folder.png",
+        "20261027-v9-sidebar-fit/assets/ui/icon-folder.png",
+        "20261028-v10-straight-seams/assets/ui/icon-folder.png",
+        "20261028-v11-responsive/assets/ui/icon-folder.png"
+      ]
+    },
+    {
+      "path": "ART/extras/icon-gate-e3d74426a4.png",
+      "sha256": "e3d74426a410dd259c0b1f9392e2fc6c26f473968da5efba802f6efc2d471bd8",
+      "bytes": 18819,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/icon-gate.png",
+        "20261027-v7-companion-quota/assets/ui/icon-gate.png",
+        "20261027-v8-light-input/assets/ui/icon-gate.png",
+        "20261027-v9-sidebar-fit/assets/ui/icon-gate.png",
+        "20261028-v10-straight-seams/assets/ui/icon-gate.png",
+        "20261028-v11-responsive/assets/ui/icon-gate.png"
+      ]
+    },
+    {
+      "path": "ART/extras/icon-gear-ec7eb216a9.png",
+      "sha256": "ec7eb216a9b64a2357c20e9bab0391a2509b1f46fbfe1863767a56655b0b85f5",
+      "bytes": 21308,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/icon-gear.png",
+        "20261027-v7-companion-quota/assets/ui/icon-gear.png",
+        "20261027-v8-light-input/assets/ui/icon-gear.png",
+        "20261027-v9-sidebar-fit/assets/ui/icon-gear.png",
+        "20261028-v10-straight-seams/assets/ui/icon-gear.png",
+        "20261028-v11-responsive/assets/ui/icon-gear.png"
+      ]
+    },
+    {
+      "path": "ART/extras/icon-run-2fbb586105.png",
+      "sha256": "2fbb586105d5267b35c02ab10769b7c90fb7dfbde2d8fa3d300883d9bee5ffd2",
+      "bytes": 18072,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/icon-run.png",
+        "20261027-v7-companion-quota/assets/ui/icon-run.png",
+        "20261027-v8-light-input/assets/ui/icon-run.png",
+        "20261027-v9-sidebar-fit/assets/ui/icon-run.png",
+        "20261028-v10-straight-seams/assets/ui/icon-run.png",
+        "20261028-v11-responsive/assets/ui/icon-run.png"
+      ]
+    },
+    {
+      "path": "ART/extras/icon-save-5a07b570e7.png",
+      "sha256": "5a07b570e73cb908d9e7287b8c31477ee93e3dbeb20dcda3af219a98dd4ebcd1",
+      "bytes": 18312,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/icon-save.png",
+        "20261027-v7-companion-quota/assets/ui/icon-save.png",
+        "20261027-v8-light-input/assets/ui/icon-save.png",
+        "20261027-v9-sidebar-fit/assets/ui/icon-save.png",
+        "20261028-v10-straight-seams/assets/ui/icon-save.png",
+        "20261028-v11-responsive/assets/ui/icon-save.png"
+      ]
+    },
+    {
+      "path": "ART/extras/icon-search-2aa68406b1.png",
+      "sha256": "2aa68406b1214cdb8ab0d49e9e5db04502d9bba274e0f0435769e287a92ec560",
+      "bytes": 19028,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/icon-search.png",
+        "20261027-v7-companion-quota/assets/ui/icon-search.png",
+        "20261027-v8-light-input/assets/ui/icon-search.png",
+        "20261027-v9-sidebar-fit/assets/ui/icon-search.png",
+        "20261028-v10-straight-seams/assets/ui/icon-search.png",
+        "20261028-v11-responsive/assets/ui/icon-search.png"
+      ]
+    },
+    {
+      "path": "ART/extras/lamp-102e086e4b.png",
+      "sha256": "102e086e4bc97443d16d8134afa7b1e6747b48348187fdf964cf9bdb1fe54947",
+      "bytes": 18027,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/lamp.png",
+        "20261027-v7-companion-quota/assets/ui/lamp.png",
+        "20261027-v8-light-input/assets/ui/lamp.png",
+        "20261027-v9-sidebar-fit/assets/ui/lamp.png",
+        "20261028-v10-straight-seams/assets/ui/lamp.png",
+        "20261028-v11-responsive/assets/ui/lamp.png"
+      ]
+    },
+    {
+      "path": "ART/extras/model-c56d1bfc8a.png",
+      "sha256": "c56d1bfc8a0e9143815472a1100e30c1c4762cb2dc318a3506e440859a0eed01",
+      "bytes": 29826,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui/model.png",
+        "20261027-v7-companion-quota/assets/ui/model.png",
+        "20261027-v8-light-input/assets/ui/model.png",
+        "20261027-v9-sidebar-fit/assets/ui/model.png",
+        "20261028-v10-straight-seams/assets/ui/model.png",
+        "20261028-v11-responsive/assets/ui/model.png"
+      ]
+    },
+    {
+      "path": "ART/extras/ui-atlas-original-7b9aa141fc.png",
+      "sha256": "7b9aa141fc29508715f05f33120591aaecb410da4a7b74c067b1ff388f27dccf",
+      "bytes": 1417298,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v6/assets/ui-atlas-original.png",
+        "20261027-v7-companion-quota/assets/ui-atlas-original.png",
+        "20261027-v8-light-input/assets/ui-atlas-original.png",
+        "20261027-v9-sidebar-fit/assets/ui-atlas-original.png",
+        "20261028-v10-straight-seams/assets/ui-atlas-original.png",
+        "20261028-v11-responsive/assets/ui-atlas-original.png"
+      ]
+    },
+    {
+      "path": "ART/extras/fourpoint-cutout-original-ac18d6e3af.png",
+      "sha256": "ac18d6e3af90b6a7065fa65cdcce12c9e982edac02a03e1f0183289d9ab52f08",
+      "bytes": 346603,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v7-companion-quota/assets/fourpoint-cutout-original.png",
+        "20261027-v8-light-input/assets/fourpoint-cutout-original.png",
+        "20261027-v9-sidebar-fit/assets/fourpoint-cutout-original.png",
+        "20261028-v10-straight-seams/assets/fourpoint-cutout-original.png",
+        "20261028-v11-responsive/assets/fourpoint-cutout-original.png"
+      ]
+    },
+    {
+      "path": "ART/extras/input-panel-source-ace300fdfd.png",
+      "sha256": "ace300fdfd352269ea148a28b9eeb6c62f9e0405aeb4b05d6ad352efe00914d6",
+      "bytes": 1446573,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v7-companion-quota/assets/input-panel-source.png",
+        "20261027-v8-light-input/assets/input-panel-source.png",
+        "20261027-v9-sidebar-fit/assets/input-panel-source.png",
+        "20261028-v10-straight-seams/assets/input-panel-source.png",
+        "20261028-v11-responsive/assets/input-panel-source.png"
+      ]
+    },
+    {
+      "path": "ART/extras/q-unified-source-aadab536f6.png",
+      "sha256": "aadab536f6449f0db7cdad44aec613de6796e710efeb4d50a0ddc2c6c055152d",
+      "bytes": 2726189,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v7-companion-quota/assets/q-unified-source.png",
+        "20261027-v8-light-input/assets/q-unified-source.png",
+        "20261027-v9-sidebar-fit/assets/q-unified-source.png",
+        "20261028-v10-straight-seams/assets/q-unified-source.png",
+        "20261028-v11-responsive/assets/q-unified-source.png"
+      ]
+    },
+    {
+      "path": "ART/extras/avatar-complete-8092e674a9.png",
+      "sha256": "8092e674a997661a87085da9d2f4c420b785e903dad6ce2a582ddce010ac9696",
+      "bytes": 438427,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v7-companion-quota/assets/ui/avatar-complete.png",
+        "20261027-v8-light-input/assets/ui/avatar-complete.png",
+        "20261027-v9-sidebar-fit/assets/ui/avatar-complete.png",
+        "20261028-v10-straight-seams/assets/ui/avatar-complete.png",
+        "20261028-v11-responsive/assets/ui/avatar-complete.png"
+      ]
+    },
+    {
+      "path": "ART/extras/avatar-question-1ec041600d.png",
+      "sha256": "1ec041600d9e5df255b392eb98a77738e2bd060491aa05ac9f18b6c53ae723fe",
+      "bytes": 448416,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v7-companion-quota/assets/ui/avatar-question.png",
+        "20261027-v8-light-input/assets/ui/avatar-question.png",
+        "20261027-v9-sidebar-fit/assets/ui/avatar-question.png",
+        "20261028-v10-straight-seams/assets/ui/avatar-question.png",
+        "20261028-v11-responsive/assets/ui/avatar-question.png"
+      ]
+    },
+    {
+      "path": "ART/extras/avatar-thinking-1653b8b26a.png",
+      "sha256": "1653b8b26abdedef5aee58186e821e571aab3446d80a34cfe49317d6bd1ea81a",
+      "bytes": 465230,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v7-companion-quota/assets/ui/avatar-thinking.png",
+        "20261027-v8-light-input/assets/ui/avatar-thinking.png",
+        "20261027-v9-sidebar-fit/assets/ui/avatar-thinking.png",
+        "20261028-v10-straight-seams/assets/ui/avatar-thinking.png",
+        "20261028-v11-responsive/assets/ui/avatar-thinking.png"
+      ]
+    },
+    {
+      "path": "ART/extras/input-panel-backing-7226070211.png",
+      "sha256": "72260702117fa9c60da1643797fbb5463f1158b87bd59b9a34d2a603f3a7a8a5",
+      "bytes": 1572092,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v7-companion-quota/assets/ui/input-panel-backing.png",
+        "20261027-v8-light-input/assets/ui/input-panel-backing.png",
+        "20261027-v9-sidebar-fit/assets/ui/input-panel-backing.png",
+        "20261028-v10-straight-seams/assets/ui/input-panel-backing.png",
+        "20261028-v11-responsive/assets/ui/input-panel-backing.png"
+      ]
+    },
+    {
+      "path": "ART/extras/light-input-source-5eff7dd3f3.png",
+      "sha256": "5eff7dd3f3013a3986050133ba89858c7916b70bae0341ddbe10b253ceb7c716",
+      "bytes": 1787624,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v8-light-input/assets/light-input-source.png",
+        "20261027-v9-sidebar-fit/assets/light-input-source.png",
+        "20261028-v10-straight-seams/assets/light-input-source.png",
+        "20261028-v11-responsive/assets/light-input-source.png"
+      ]
+    },
+    {
+      "path": "ART/extras/light-sidebar-source-c3cefe3aff.png",
+      "sha256": "c3cefe3aff3e68b4540cfda4aff60bdcbe7f756b3e2ab344360d4d867c72bd1f",
+      "bytes": 2153403,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v8-light-input/assets/light-sidebar-source.png",
+        "20261027-v9-sidebar-fit/assets/light-sidebar-source.png",
+        "20261028-v10-straight-seams/assets/light-sidebar-source.png",
+        "20261028-v11-responsive/assets/light-sidebar-source.png"
+      ]
+    },
+    {
+      "path": "ART/extras/sidebar-companion-907decbfbe.png",
+      "sha256": "907decbfbe7a4e04bdf7d897979689b2e3fec4a6395874c1ec14bdeafc0b780c",
+      "bytes": 423997,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v8-light-input/assets/ui/sidebar-companion.png",
+        "20261027-v9-sidebar-fit/assets/ui/sidebar-companion.png",
+        "20261028-v10-straight-seams/assets/ui/sidebar-companion.png",
+        "20261028-v11-responsive/assets/ui/sidebar-companion.png"
+      ]
+    },
+    {
+      "path": "ART/extras/list-cap-bottom-3fe363c569.png",
+      "sha256": "3fe363c569acabfe8620f2e23761289b58fa8d34c707d570aadf835accc85e07",
+      "bytes": 185115,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v9-sidebar-fit/assets/ui/list-cap-bottom.png",
+        "20261028-v10-straight-seams/assets/ui/list-cap-bottom.png",
+        "20261028-v11-responsive/assets/ui/list-cap-bottom.png"
+      ]
+    },
+    {
+      "path": "ART/extras/list-cap-compact-a3d5c5f928.png",
+      "sha256": "a3d5c5f928f1ccf5f2d78ff52d6a89a0469286d7e36f29209a999dbf30766632",
+      "bytes": 46257,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v9-sidebar-fit/assets/ui/list-cap-compact.png",
+        "20261028-v10-straight-seams/assets/ui/list-cap-compact.png",
+        "20261028-v11-responsive/assets/ui/list-cap-compact.png"
+      ]
+    },
+    {
+      "path": "ART/extras/list-cap-top-f6ce56eefb.png",
+      "sha256": "f6ce56eefbe0b4ca5a03d6a8475981a197102e4ee1bfef42d4b549fbfec87941",
+      "bytes": 165913,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v9-sidebar-fit/assets/ui/list-cap-top.png",
+        "20261028-v10-straight-seams/assets/ui/list-cap-top.png",
+        "20261028-v11-responsive/assets/ui/list-cap-top.png"
+      ]
+    },
+    {
+      "path": "ART/extras/list-middle-rails-0e88dc9ea5.png",
+      "sha256": "0e88dc9ea50de26868a44066fa12568442d4714f61f81fb669d169e73ba9894e",
+      "bytes": 96721,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v9-sidebar-fit/assets/ui/list-middle-rails.png",
+        "20261028-v10-straight-seams/assets/ui/list-middle-rails.png",
+        "20261028-v11-responsive/assets/ui/list-middle-rails.png"
+      ]
+    },
+    {
+      "path": "ART/extras/sidebar-companion-body-b3e03b9e3c.png",
+      "sha256": "b3e03b9e3c7dc6419631633d3b6d2ceb266d8f557fcff585530fc6a5b18c31ba",
+      "bytes": 140761,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v9-sidebar-fit/assets/ui/sidebar-companion-body.png",
+        "20261028-v10-straight-seams/assets/ui/sidebar-companion-body.png",
+        "20261028-v11-responsive/assets/ui/sidebar-companion-body.png"
+      ]
+    },
+    {
+      "path": "ART/extras/sidebar-companion-ornament-e0237df938.png",
+      "sha256": "e0237df938bc32dff5a8e14f6ea4fbdb4c53333f6a16276eb741454303e986c4",
+      "bytes": 283906,
+      "preferredRuntime": false,
+      "sourceVariants": [
+        "20261027-v9-sidebar-fit/assets/ui/sidebar-companion-ornament.png",
+        "20261028-v10-straight-seams/assets/ui/sidebar-companion-ornament.png",
+        "20261028-v11-responsive/assets/ui/sidebar-companion-ornament.png"
+      ]
+    }
+  ]
+}

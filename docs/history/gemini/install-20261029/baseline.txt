@@ -1,0 +1,5 @@
+2026-10-29 正式DSH试装前界面基线
+设置14分区：账号与余额、通用设置、模型、内置插件、Agent预设、已归档会话、提示词注入器、插件市场、侧边卡片、Web插件、皮肤、宠物、创意工坊、使用统计。
+内置4：standard/ptc/minimal/cordis。自定义5：liangshen/tavernweave-st/cardmaker-standard/cardmaker-ptc/hermes。
+右栏：任务管理，可打开/收起。桌宠：鲸鱼娘（精致版）在。
+当前皮肤：blue-fantasy；当前会话已完成、输入为空。

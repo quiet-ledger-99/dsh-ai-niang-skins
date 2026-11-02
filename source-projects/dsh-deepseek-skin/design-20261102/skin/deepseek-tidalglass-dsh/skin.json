@@ -1,0 +1,39 @@
+{
+  "skinManifestVersion": 2,
+  "id": "deepseek-tidalglass-dsh",
+  "name": "DeepSeek娘 · 澄潮绮窗",
+  "nameEn": "DeepSeek · Tidalglass Atelier",
+  "version": "0.2.0",
+  "author": "qianweitao · Codex",
+  "tagline": "鲸游绮窗，书页间的蓝白潮汐",
+  "description": "蓝白鲸系海馆藏珍设计：24枚珐琅器物图标、鲸尾贝壳输入框、珍珠牌匾、藏书封面侧栏与整套决策面板边框；保留用户选定的海底书房和Grok Bot v4背景。",
+  "accent": "#416eaf",
+  "tags": [
+    "DeepSeek娘",
+    "鲸系",
+    "蓝白",
+    "珐琅",
+    "磨砂玻璃"
+  ],
+  "order": 2,
+  "license": "User-supplied character references; AI-assisted derivative artwork; rights not transferred",
+  "attribution": "人物参考由用户提供；原画、图标、边框使用内置imagegen；动态背景由用户交回的Grok Bot视频提供。",
+  "preview": {
+    "light": "preview/cover.jpg",
+    "dark": "preview/cover.jpg"
+  },
+  "contributes": {
+    "stylesheet": "skin.css",
+    "patches": "patches.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "video",
+        "src": "assets/deepseek-chengchao-bg-loop-v4.mp4"
+      },
+      "dark": {
+        "type": "video",
+        "src": "assets/deepseek-chengchao-bg-loop-v4.mp4"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+/* ChatGPT Silver Court — DSH native tokens and semantic surfaces. */
+:root,body[data-ds-dark-theme]{
+ color:#f5f2ff;background-color:#1b1a2d;
+ --dsw-alias-bg-base:transparent;
+ --dsw-alias-bg-layer-1:#2b2941;--dsw-alias-bg-layer-2:#37334f;--dsw-alias-bg-layer-3:#45405e;
+ --dsw-alias-bg-module-platform:#322f49;--dsw-alias-bg-overlay:#50496e;
+ --dsw-alias-bg-mask-1:#050d2399;--dsw-alias-bg-mask-2:#050d2355;--dsw-alias-bg-mask-3:#050d23bb;
+ --dsw-alias-label-primary:#f5f2ff;--dsw-alias-label-secondary:#d9d4eb;--dsw-alias-label-tertiary:#bcb4d3;
+ --dsw-alias-label-caption:#bcb4d3;--dsw-alias-label-dimmed:#9991b1;--dsw-alias-label-primary-dimmed:#cbc4df;
+ --dsw-alias-label-primary-inverted:#292638;--dsw-alias-label-primary-foreground:#fffaff;
+ --dsw-alias-brand-primary-new-colorprimary-new-color:#806499;--dsw-alias-brand-primary:#cec3f0;--dsw-alias-brand-primary-invert:#292638;--dsw-alias-brand-text:#e8ddff;
+ --dsw-alias-button-primary-fill:#76649c;--dsw-alias-button-primary-hover:#8b77b2;--dsw-alias-button-primary-dimmed:#514566;
+ --dsw-alias-button-floating-fill:#423951;--dsw-alias-button-floating-hover:#534760;--dsw-alias-button-elevated-fill:#40384e;
+ --dsw-alias-button-ghost-active-fill:#9ebde932;--dsw-alias-button-ghost-active-hover:#a7c7ed45;--dsw-alias-button-ghost-active-border:#b7c8df80;
+ --dsw-alias-interactive-bg-hover:#b0cae91e;--dsw-alias-interactive-bg-hover-solid:#4a405e;--dsw-alias-interactive-bg-active:#a0c1e832;
+ --dsw-alias-interactive-bg-hover-accent:#d4bd8628;
+ --dsw-alias-border-l1:#b5cce526;--dsw-alias-border-l2:#b5cce544;--dsw-alias-border-l2-darkmode-thin:#b5cce544;
+ --dsw-alias-border-l3:#b5cce566;--dsw-alias-border-l4:#d9d4eb88;
+ --dsw-alias-state-business-primary:#d5c5ed;--dsw-alias-state-business-tertiary:#49415d;--dsw-alias-link:#e4d5ff;
+ --dsw-specific-sidebar-fill:#29263d;--dsw-specific-sidebar-nav-item-active:#96b8e32b;--dsw-specific-sidebar-nav-item-hover:#a4c3ea1c;
+ --dsw-specific-sidebar-nav-item-active-accent:#e1d8ee;--dsw-specific-input-major:#fbf9ff;
+ --dsw-specific-menu:#29243df5;--dsw-menu-surface-fill:#29243df5;--dsw-specific-selector:#4a405e;--dsw-specific-tip:#3d354d;
+ --dsw-specific-bubble:#4b405d99;--dsw-specific-bubble-highlight:#665775;
+ --dsw-alias-scrollbar-bg-l1:#9eb7d055;--dsw-alias-scrollbar-bg-l2:#9eb7d055;
+ --dsw-alias-scrollbar-hover-l1:#b4cbe077;--dsw-alias-scrollbar-hover-l2:#b4cbe077;
+ --dsw-alias-tooltip-bg:#eef4fc;--dsw-alias-tooltip-fg:#4a3b65;--dsw-alias-toast-bg:#4d4061;
+ --dsw-alias-markdown-code-block:#151223ba;--dsw-alias-markdown-code-block-banner:#30283dba;--dsw-alias-markdown-inline-code:#b5cfee26;
+ --sg-unit:max(calc(100vw / 1672),calc(100vh / 941));
+ --sg-art-w:calc(var(--sg-unit) * 1672);--sg-art-h:calc(var(--sg-unit) * 941);
+ --sg-x:calc(100vw - var(--sg-art-w));--sg-y:calc(100vh - var(--sg-art-h));
+}
+
+[data-dsh-surface="root"]{background:transparent}
+[data-dsh-surface="conversation"]{background:linear-gradient(90deg,#17132680,#24203424 70%,transparent);isolation:isolate}
+[data-dsh-surface="session-header"]{background:#262037ba;border-bottom:1px solid #d9cae633;color:#f2ecff}
+[data-dsh-surface="details"]{background:#29223dee;border-left:1px solid #d5c7e344}
+[data-dsh-part="new-session"]{background:linear-gradient(115deg,#76638f,#554565);border:1px solid #cab9e37d;border-radius:8px;box-shadow:inset 0 0 0 2px #efe5ff17;color:#fffaff;min-height:39px;letter-spacing:1px}
+[data-dsh-part="new-session"]:hover{background:linear-gradient(115deg,#8c79a7,#695579)}
+[data-dsh-part="message-body"]{color:#f8f4ff;--dsw-alias-label-primary:#f8f4ff;--dsw-alias-label-secondary:#ddd5eb;--dsw-alias-label-tertiary:#c8bfd7;--dsw-alias-link:#e5d3ff;background:linear-gradient(120deg,#282337e8,#383045d9);backdrop-filter:blur(14px);border:1px solid #d9c8eb55;border-radius:14px;padding:22px 26px;box-shadow:inset 0 1px #e9ddfa20,0 5px 20px #100c202b}
+[data-dsh-part="message-body"] :is(p,li,h1,h2,h3,h4,blockquote,table){color:inherit}
+[data-dsh-part="message-body"] :is(h1,h2){font-family:"Songti SC","STSong",serif;font-weight:500;letter-spacing:.5px}
+[data-dsh-part="message-body"] a{color:#e5d3ff}
+[data-dsh-part="message-body"] :is(pre,code){color:inherit}
+[data-changed-files],[data-presented-file]{--changes-fill:#282237de;--changes-hover:#544462bb;--dsw-alias-label-primary:#f8f4ff;--dsw-alias-label-secondary:#ddd5eb;--dsw-alias-label-tertiary:#c8bfd7;--dsw-alias-bg-layer-1:#362b47;--dsw-alias-bg-layer-2:#493c5a;background:#282237de!important;color:#f8f4ff;border-color:#d9c8eb55;backdrop-filter:blur(12px)}
+/* Settings are a complete light porcelain surface; card and control tokens must match the text. */
+[data-dsh-surface="settings"]{
+ color-scheme:light;background:#f4f1fa;color:#3c344e;
+ --dsw-alias-bg-base:#f4f1fa;--dsw-alias-bg-layer-1:#fcfaff;--dsw-alias-bg-layer-2:#ece6f4;--dsw-alias-bg-layer-3:#e3d9ed;--dsw-alias-bg-layer-4:#d8cce5;
+ --dsw-alias-bg-module-platform:#e8e0f1;--dsw-alias-bg-overlay:#fffaff;--dsw-alias-bg-skeleton:#e2d8ed;
+ --dsw-alias-settings-card-fill:#fffaff;--dsw-alias-settings-card-stroke:#9ab4d066;
+ --dsw-alias-label-primary:#3c344e;--dsw-alias-label-secondary:#5b4e70;--dsw-alias-label-tertiary:#70617f;--dsw-alias-label-caption:#70617f;--dsw-alias-label-dimmed:#7e718c;--dsw-alias-label-primary-dimmed:#70617f;
+ --dsw-alias-label-primary-inverted:#fffaff;--dsw-alias-label-primary-foreground:#fffaff;--dsw-alias-menu-icon:#5b4e70;
+ --dsw-alias-brand-primary:#76649c;--dsw-alias-brand-primary-new-colorprimary-new-color:#76649c;--dsw-alias-brand-text:#70568f;--dsw-alias-link:#70568f;
+ --dsw-alias-border-l1:#9ab4d055;--dsw-alias-border-l2:#9ab4d077;--dsw-alias-border-l2-darkmode-thin:#9ab4d077;--dsw-alias-border-l3:#8ca9c599;--dsw-alias-border-l4:#7797b6b3;--dsw-alias-border-inverted:#fff;
+ --dsw-alias-interactive-bg-hover:#7395be1c;--dsw-alias-interactive-bg-hover-solid:#e5dcef;--dsw-alias-interactive-bg-active:#7395be2b;
+ --dsw-alias-button-primary-dimmed:#e6dcf2;--dsw-alias-button-floating-fill:#ece5f4;--dsw-alias-button-floating-hover:#e2d5ef;--dsw-alias-button-elevated-fill:#fffaff;
+ --dsw-alias-state-business-primary:#76649c;--dsw-alias-state-business-tertiary:#e2d5ef;--dsw-specific-input-major:#fffaff;--dsw-specific-selector:#e2d5ef;
+ --dsw-alias-scrollbar-bg-l1:#8ca9c555;--dsw-alias-scrollbar-bg-l2:#8ca9c555;--dsw-alias-scrollbar-hover-l1:#6b8eae88;--dsw-alias-scrollbar-hover-l2:#6b8eae88;
+}
+body::selection{background:#d8c4ef;color:#30263e}

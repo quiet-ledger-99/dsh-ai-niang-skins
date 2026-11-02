@@ -1,0 +1,11 @@
+Drive 参考已目检：
+01-千问娘-视觉角色卡.png https://drive.google.com/file/d/1D6KbMQaSaZYLyXBC2Z9wrIHQ9YRDIj2q/view
+02-千问娘-Codex画风备选.png https://drive.google.com/file/d/10AxndlTVgKGL1Pu9WwptfP1NkW5HecYB/view
+03-千问娘-全身母版.png https://drive.google.com/file/d/1BVZNd9ALEZ4nkmPhx4doxUQV-SEEVv1_/view
+04-千问娘-无道具半身母版.png https://drive.google.com/file/d/1Ajl05Lp6zKtyFsXTJo3q5yu36Xum3Ppr/view
+05-千问娘-用户原始母版.png https://drive.google.com/file/d/1Tep5GpDU2Fd4pWbaBlqdqaHSh1bZWuRf/view
+06-千问娘-半身母版.png https://drive.google.com/file/d/1smhETjqga0t72XCkc21n5Zj1222IjrnF/view
+07-千问娘-思考母版.png https://drive.google.com/file/d/1aeoOqB4u5K3VZ03p2ZScosYHQmoN5GaD/view
+
+主参考04，01核对正侧背，05为原始身份锚点，03核对全身服饰。02仅参考氛围。06是有扇/包的专门形态，不混成日常无道具版。07用于焦点表情参考。
+去重：视觉卡与无扩展名千问娘同源；4x-lanczos是放大副本，不算新原图。半身/思考是派生，不冒充额外原始设定。新场景姿态和环境为本次改编。未混入Minecraft重建候选。

@@ -1,0 +1,11 @@
+ChatGPT娘 / 霜华 / 恰特 参考盘点 2026-10-29
+已目检11张不同图：原始全身f001、视觉角色卡、九种对话表情（neutral/thinking/soft-smile/warm/concerned/annoyed/sad/shy/surprised）。同图Drive副本不重复计数。
+原始全身：Drive 1OY59h7hpzQrWH01A0HovojPfKmf6eFKa；原Windows出处_research/bilibili/f1/f001.png，Mac原路径未同步，从Drive取回。
+视觉卡：Drive 1S7HzTbrnzS6xGuNlp3oobRWPUnQqZAIK，集中副本与候选尺寸相同。生成记录说明它未获用户几何验收，背面为推测补绘、侧面与链饰有差异，不当原始定稿。
+表情母版：本地AI-daxiaojie/card/fx/_scene-dialogue-demo-20260919/concepts，11图整体观察：银白长发/淡紫瞳、覆鳞弯角、尖耳、白裙挂脖立领、菱形链饰、白编结及流苏、独立垂袖、膜翼与粗鳞尾保持。表情差别很细，不以文件名当作强表情证据。
+采用：neutral为主脸与渲染；原始全身为衣饰结构；视觉卡仅辅助。发饰按图像在人物自身左侧，文字档右发侧与图像矛盾，不反写人设。
+人设只读：AI-daxiaojie/人设/GPT.md：清冷克制、正坐、整理材料、茶盏；尾巴多数时候不动。主题场景/室内建筑为改编，未声称原案地点。
+缺项：未发现独立原版纯侧面/背面/其他换装原立绘；视觉卡推测背面不补作原图证据。Grok工程的GPT局部分层研究不当新服装原设。
+本机未找到Windows生图操作手册/口径文档；本次走内置image_gen，无ComfyUI参数或API付费调用，不套用其他底模参数。
+
+用户纠正：首版右侧半身伏案构图与千问娘雷同。首版作为弃用草稿保留；新方向改为户外云海观星台、全身站姿、人物偏左、弧形回廊与右侧开阔夜空，不能仅换色换家具。

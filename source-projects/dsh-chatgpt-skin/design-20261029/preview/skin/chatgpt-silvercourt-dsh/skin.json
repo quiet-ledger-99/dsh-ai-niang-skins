@@ -1,0 +1,38 @@
+{
+  "skinManifestVersion": 2,
+  "id": "chatgpt-silvercourt-dsh",
+  "name": "ChatGPT娘 · 云上银庭",
+  "nameEn": "ChatGPT Silver Court",
+  "version": "0.4.2",
+  "author": "qianweitao · Codex",
+  "tagline": "珍珠白 · 黑色细纹 · 银鳞编结",
+  "description": "珍珠白主调、黑色细边纹、少量淡紫。保留白银礼器图标和磨砂界面，背景更新为用户确认的v5c（1080p，含眨眼）。",
+  "tags": [
+    "chatgpt",
+    "dragon",
+    "white",
+    "black",
+    "silver"
+  ],
+  "accent": "#30363d",
+  "order": 0,
+  "license": "Private evaluation; user-supplied character references",
+  "preview": {
+    "light": "preview/court-v0.4.png",
+    "dark": "preview/court-v0.4.png"
+  },
+  "contributes": {
+    "stylesheet": "skin-inkwhite.css",
+    "patches": "patches-inkwhite.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "video",
+        "src": "assets/chatgpt-shuanghua-bg-loop-v5c.mp4"
+      },
+      "dark": {
+        "type": "video",
+        "src": "assets/chatgpt-shuanghua-bg-loop-v5c.mp4"
+      }
+    }
+  }
+}
